@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        double[] numbers = {3,-6, 9, -12, 15, -18, 21, -24, 27, -30, 33, -36, 39, -42, 45};
+        double[] numbers = {3.1,-6.2, 9.3, -12.4, 15.5, -18.6, 21.7, -24.8, 27.9, -30.1, 33.2, -36.3, 39.4, -42.5, 45.6};
         double sum = 0;
         int amount = 0;
         boolean isNegative = false;
@@ -16,7 +16,8 @@ public class Main {
             }
         }
         System.out.println(sum);
-        System.out.println(amount/sum);
+        System.out.println(amount);
+        System.out.println(sum/amount);
     }
 }
 
