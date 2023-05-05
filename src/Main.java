@@ -4,11 +4,11 @@ public class Main {
     public static void selectionSort(double[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
             int pos = i;
-            int min = (int) numbers[i];
+            double min = numbers[i];
             for (int j = i + 1; j < numbers.length; j++) {
                 if (numbers[j] < min) {
                     pos = j;
-                    min = (int) numbers[j];
+                    min = numbers[j];
                 }
             }
             System.out.print(Arrays.toString(numbers) + "\n");
