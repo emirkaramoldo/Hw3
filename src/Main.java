@@ -35,8 +35,6 @@ public class Main {
         System.out.println("Сумма чисел: " + sum);
         System.out.println("Количество чисел: " + amount);
         System.out.println("Среднее арифметическое: " + sum / amount);
-        //selectionSort(numbers);//
-        Arrays.sort(numbers);
-        System.out.println(Arrays.toString(numbers));
+        selectionSort(numbers);
     }
 }
